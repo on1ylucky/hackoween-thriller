@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackoween Thriller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Hackoween Thriller</h1>
+        <p>Enter the 6-digit code to unlock the secret:</p>
+        <form id="codeForm">
+            <input type="text" id="codeInput" placeholder="Enter code" maxlength="6">
+            <button type="submit">Unlock</button>
+        </form>
+        <div id="message"></div>
+        <div id="secret" class="hidden">
+            <p>The secret message is: <span id="password"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
