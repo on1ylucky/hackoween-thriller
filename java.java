@@ -2,8 +2,8 @@ document.getElementById('codeForm').addEventListener('submit', function (e) {
     e.preventDefault();
 
     // Obfuscated code using Base64 encoding
-    const encodedCode = "MTEyOTgy";  // Base64 encoding of the code '112982'
-    const encodedMessage = "aGFja293ZWVue3sgOCAxIDE2IDE2IDI1XzggMSAzIDExIDE1IDIzIDUgNSAxNCA4IDEgMyAxMSA1IDE4IDE5fQ=="; // Encoded message 'hackoween{8 1 16 16 25_8 1 3 11 15 23 5 5 14_8 1 3 11 5 18 19}'
+    const encodedCode = "MTEzMDgy";  
+    const encodedMessage = "aGFja293ZWVuXzggMSAxNiAxNiAyNV84IDEgMyAxMSAxNSAyMyA1IDUgMTQgOCAxIDMgMTEgNSAxOCAxOQ=="; 
 
     const enteredCode = document.getElementById('codeInput').value;
     const message = document.getElementById('message');
