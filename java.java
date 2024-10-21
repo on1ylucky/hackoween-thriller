@@ -1,15 +1,15 @@
 document.getElementById('codeForm').addEventListener('submit', function (e) {
     e.preventDefault();
 
-    // Obfuscated code using Base64 encoding
+
     const encodedCode = "MTEzMDgy";  
-    const encodedMessage = "aGFja293ZWVuXzggMSAxNiAxNiAyNV84IDEgMyAxMSAxNSAyMyA1IDUgMTQgOCAxIDMgMTEgNSAxOCAxOQ=="; 
+    const encodedMessage = "aGFja293ZWVuXzggMSAxNiAxNiAyNV84IDEgMyAxMSAxNSAyMyA1IDUgMTQgOCAxIDMgMTEgNSAxOCAxOQ==";
 
     const enteredCode = document.getElementById('codeInput').value;
     const message = document.getElementById('message');
     const secret = document.getElementById('secret');
 
-    // Decode Base64-encoded secret code
+    // Decode Base64 encoded secret code
     const decodedCode = atob(encodedCode);
 
     if (enteredCode === decodedCode) {
