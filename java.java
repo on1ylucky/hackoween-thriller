@@ -3,7 +3,7 @@ document.getElementById('codeForm').addEventListener('submit', function (e) {
 
 
     const encodedCode = "MTEzMDgy";  
-    const encodedMessage = "aGFja293ZWVuXzggMSAxNiAxNiAyNV84IDEgMyAxMSAxNSAyMyA1IDUgMTQgOCAxIDMgMTEgNSAxOCAxOQ==";
+    const encodedMessage = "OCAxIDE2IDE2IDI1IDggMSAzIDExIDE1IDIzIDUgNSAxNCA4IDEgMyAxMSA1IDE4IDE5";
 
     const enteredCode = document.getElementById('codeInput').value;
     const message = document.getElementById('message');
