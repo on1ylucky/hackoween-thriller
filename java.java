@@ -9,13 +9,13 @@ document.getElementById('codeForm').addEventListener('submit', function (e) {
     const message = document.getElementById('message');
     const secret = document.getElementById('secret');
 
-    // Decode Base64 encoded secret code
+    
     const decodedCode = atob(encodedCode);
 
     if (enteredCode === decodedCode) {
         message.textContent = "";
 
-        // Decode the secret message from Base64
+       
         const decodedMessage = atob(encodedMessage);
         
         secret.classList.remove('hidden');
